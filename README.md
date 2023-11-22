@@ -9,53 +9,72 @@ SRH - Software Development classes
 
 The goal of this project is to provide users with a tool for managing their finances, tracking expenses, and generating basic financial reports. It's a great learning opportunity for software development students to gain hands-on experience in C++ programming and software design.
 
-## Features
+## FINAL PROJECT SUBMISSION
 
-### User Profile (working on functionality)
+## 1. Git
 
-- Create a user class to store basic information, such as name, age, and income. 
+>Use and understand Git! Play with Branches and undo/revert things = go back in time!
 
-### Expense and Income Classes
+&rarr; [See commit history here](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/commits/master)
 
-- Implement classes for expenses and income to store details like amount, category, date, and description.
+## 2. UML 
 
-### Expense Tracking (working on functionality)
+>UML at least 3 good different big diagrams. "good" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all the tools to view them! Perfect would be 1) one dynamic diagram like an activity diagranm 2) one or two static diagrams as component, class or deployment and if needed a use-case diagram.
 
-- Allow users to add, edit, and delete expenses and income.
+|TODO|
 
-### Expense Categories
+## 3. Requirements Engineering
 
-- Provide predefined expense categories (e.g., food, transportation, entertainment) and allow users to categorize their expenses.
+>Describe your project or any project (e.g. one related to your work or a private project) neatly using the methods of Requirements Engineering by mapping some requirements in 2 tools (!).To do this, use the most important description attributes from the script! Approximately 5-10 requirements per tool should be sufficient. Two variants should be provided = tools. A 'self-made' version and a professional = possibly commercial version, i.e. with 2 tools! Examples of 'self-made' variants: Airtable, notion.so, Trello, etc. Examples of commercial tools: Monday, Jira, Doors, ObjectIF, Xebrio, etc. (see Miro). Instead of the professional version, you can also build a tool yourself.
 
-### Balance Calculation
+|TODO|
 
-- Calculate and display the user's current balance by subtracting total expenses from total income.
+## 4. Analysis
 
-### Monthly Reports (working on functionality)
+>From all the points in the Analysis learning unit, A) come up with your own checklist (on an extra DIN A4 page) with the points that you consider relevant to your project. B. Carry out an analysis of your semester project/your favourite / start-up idea and would like to submit this analysis as part of a large documentary! Write enough about each point to create at least 2 pages. Assume that you will soon have an angel for the start-up chapter. If successful, you would get a lot of “money” to be able to do the design and implement it later. So get your start-up successfully into the race!
 
-- Generate monthly financial reports that display income, expenses, and balance for each month.
+|TODO|
 
-### Expense Analysis (planned)
+## 5. DDD
 
-- Implement a basic expense analysis feature to show which categories the user spends the most on.
+>DDD Do a DDD session to find your domains! If your domain is too small, invent other domains around and document these domains (as if you have 100 Mio € from Edlich-Investment!) Develop a clear strategic design with mappings/relationships with >=8 Domains coming from an A) Event Storming. Drop your Domains into a B) Core Domain Chart and draw the C) Relations between the Domains!  
 
-### Budgeting (planned)
+|TODO|
 
-- Allow users to set monthly budgets for specific expense categories and provide alerts if they are close to exceeding their budget.
+## 6. Metrices
 
-### Data Persistence 
+>Metrics at least two. Sonarcube would be great. Other non-trivial metrics are also fine.
 
-- Implement data persistence to save and load user data from a file between sessions.
+|TODO|
 
-## How to Contribute
+## 7. Clean Code Dev
 
-We welcome contributions from students and developers interested in contributing to this project. Whether you're a beginner looking to learn or an experienced developer, your contributions are valuable.
+>Clean Code Development: A) At least 5 points you can show me with an explanation of why this is clean code in your code and/or what has improved & B) >>10 points on your personal CCD cheat sheet. E.g. a PDF.
 
-To get started, follow these steps:
+|TODO|
 
-1. **Fork** the repository to your GitHub account.
+## 8. Build
 
-2. **Clone** the forked repository to your local machine:
+>Build Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. (it could be also disconnected from the project just to learn a build tool!) and CICD
 
-   ```bash
-   git clone https://github.com/your-username/personal-finance-manager.git
+|TODO|
+
+## 9. UnitTests
+
+>Integrate some nice unit tests in your Code to be integrated into the Build
+
+|TODO|
+
+## 10. IDE
+
+>Use a good IDE and get fluent with it: e.g. IntelliJ. What are your favourite key shortcuts?!
+
+### CHOSEN IDE: [VISUAL STUDIO COMMUNITY 2022](https://visualstudio.microsoft.com/vs/community/)
+
+&rarr; *shortcuts that I used the most*:
+- ```ctrl + f``` (find)
+- ```ctrl + .``` (creating definition from class to cpp file) 
+- ```ctrl + c/v/x``` (copy/paste/cut)
+- ```F5/F11/F10``` (debug/step into/step over)  
+- ```ctrl + q``` (find functions/Code)
+
