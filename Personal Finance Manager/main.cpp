@@ -5,9 +5,9 @@ using namespace std;
 
 int main()
 {
-	int choice;
+    int choice;
 
-	User user("Michal Witwicki", 0, 0);
+	User user("Michal Witwicki", 0, 0); //working on functionality
 	FinanceManager financeManager(user);
 
 	do
