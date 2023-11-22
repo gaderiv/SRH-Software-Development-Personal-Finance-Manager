@@ -138,6 +138,15 @@
     <ClInclude Include="Transaction.h" />
     <ClInclude Include="User.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="SRC\Clean Code Dev\TODO.txt" />
+    <Text Include="SRC\DDD\TODO.txt" />
+    <Text Include="SRC\Metrices\TODO.txt" />
+    <Text Include="SRC\Requirements Engineering\TODO.txt" />
+    <Text Include="SRC\UML\TODO.txt" />
+    <Text Include="SRC\UnitTests\TODO.txt" />
+    <Text Include="transactions.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
