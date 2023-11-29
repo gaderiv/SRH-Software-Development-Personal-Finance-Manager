@@ -134,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FinanceManager.h" />
+    <ClInclude Include="main.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Transaction.h" />
     <ClInclude Include="User.h" />
@@ -149,6 +150,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="transactions.csv" />
+    <None Include="users.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
