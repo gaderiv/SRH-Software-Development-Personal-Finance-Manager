@@ -78,3 +78,11 @@ The goal of this project is to provide users with a tool for managing their fina
 - ```F5/F11/F10``` (debug/step into/step over)  
 - ```ctrl + q``` (find functions/Code)
 
+## 11. Functional Programming
+>prove that you have covered all functional aspects in your code as:
+- only final data structures
+- (mostly) side-effect-free functions
+- the use of higher-order functions
+- functions as parameters and return values
+- use closures / anonymous functions
+- You can also do it outside of your project. Even in other languages such as F#, Clojure, Julia, etc. 
