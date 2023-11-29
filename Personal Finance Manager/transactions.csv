@@ -1,6 +1,9 @@
--100,Food,koaw,Wed Nov 29 11:00:58 2023
--100,Food,,Wed Nov 29 11:14:51 2023
--100,Food,,Wed Nov 29 11:16:46 2023
--1900,Other,,Wed Nov 29 11:17:43 2023
--100,Food,fes,Wed Nov 29 11:22:04 2023
-1000,Income,23,Wed Nov 29 11:44:17 2023
+-100,Utilities,x,Wed Nov 29 12:14:11 2023
+100000,Income,salary,Wed Nov 29 12:14:19 2023
+100,Income,e,Wed Nov 29 12:17:54 2023
+1000,Income,3,Wed Nov 29 12:18:03 2023
+-1000,Transportation,f,Wed Nov 29 12:18:29 2023
+-100,Food,r,Wed Nov 29 12:20:54 2023
+-100,Transportation,w,Wed Nov 29 12:22:16 2023
+100,Income,1,Wed Nov 29 12:22:22 2023
+100,Income,w,Wed Nov 29 12:36:53 2023

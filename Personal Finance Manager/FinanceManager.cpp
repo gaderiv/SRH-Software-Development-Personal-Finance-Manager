@@ -1,6 +1,6 @@
 #include "FinanceManager.h"
 
-//Methods add
+//Methods added
 void FinanceManager::addExpense(double amount, std::string category, std::string description)
 {
 	if (!isCategoryValid(category))

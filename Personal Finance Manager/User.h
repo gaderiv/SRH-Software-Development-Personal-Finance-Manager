@@ -12,10 +12,16 @@
 class User
 {
 public:
-	std::string name;
 	int age;
 	double income;
+	std::string name;
 
 	User(std::string name, int age, double income);
+
+	void displayUserInfo();
+
+	static User createUser();
+	static User loadUserFromFile();
+
 };
 

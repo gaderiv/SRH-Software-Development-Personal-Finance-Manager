@@ -44,6 +44,9 @@
     <ClInclude Include="resource.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="transactions.txt">
@@ -58,6 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="transactions.csv">
+      <Filter>data</Filter>
+    </None>
+    <None Include="users.csv">
       <Filter>data</Filter>
     </None>
   </ItemGroup>
