@@ -30,6 +30,9 @@
     <ClCompile Include="Transaction.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="Budgeting.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="User.h">
@@ -45,6 +48,9 @@
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
     <ClInclude Include="main.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Budgeting.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>
@@ -64,6 +70,9 @@
       <Filter>data</Filter>
     </None>
     <None Include="users.csv">
+      <Filter>data</Filter>
+    </None>
+    <None Include="budgetplan.csv">
       <Filter>data</Filter>
     </None>
   </ItemGroup>

@@ -1,6 +1,7 @@
 #include "User.h"
 #include "FinanceManager.h"
 #include "main.h"
+#include "Budgeting.h"
 
 using namespace std;
 
@@ -11,8 +12,9 @@ void menu()
     cout << "2. Add Income\n";
     cout << "3. Calculate Balance\n";
     cout << "4. Generate Monthly Report\n";
-    cout << "5. Create User\n";
-    cout << "6. Save and Quit\n";
+    cout << "5. Budget Plan\n";
+    cout << "6. Create User\n";
+    cout << "7. Save and Quit\n";
     cout << "Enter your choice: ";
 }
 
@@ -128,12 +130,42 @@ void user_creation(User& user, FinanceManager& financeManager)
     financeManager = FinanceManager(user);
 }
 
+void generate_budget_plan(int& month, int& year, double& salary)
+{
+    system("cls");
+    cout << "Enter month (1-12): ";
+
+    if (!(cin >> month))
+    {
+        cout << "Invalid input for month. Please enter a valid number.\n";
+    }
+
+    cin.ignore();
+    cout << "Enter year: ";
+    if (!(cin >> year))
+    {
+        cout << "Invalid input for year. Please enter a valid number.\n";
+    }
+
+    cin.ignore();
+    cout << "Enter monthly salary: ";
+    if (!(cin >> salary))
+    {
+        cout << "Invalid input for salary. Please enter a valid number.\n";
+    }
+
+    system("cls");
+    Budgeting budget(month, year, salary);
+    budget.generateBudgetPlan();
+    budget.printSummary();
+}
+
 int main()
 {
     User user = User::loadUserFromFile();
 
     int choice, month, year, categoryChoice, retFlag;
-    double income, amount;
+    double income, amount, salary;
     string incomeDescription, category, description;
 
 	FinanceManager financeManager(user);
@@ -148,7 +180,7 @@ int main()
         //input checker
 		if (!(cin >> choice))
 		{
-			cout << "Incalid input. Please enter a number.\n";
+			cout << "Invalid input. Please enter a number.\n";
 			cin.clear();
 			cin.ignore(numeric_limits<streamsize>::max(), '\n');
 			continue;
@@ -156,7 +188,6 @@ int main()
 
 		switch (choice)
 		{
-
         //adding expence
 		case 1:
 		{
@@ -186,23 +217,28 @@ int main()
             if (retFlag == 2) break;
             break;
         }
-
-        //create user
+        //budget planning
         case 5:
+        {
+            generate_budget_plan(month, year, salary);
+            break;
+        }
+        //create user
+        case 6:
+        {
             user_creation(user, financeManager);
             break;
-
+        }
         //exit and save
-        case 6:
+        case 7:
         {
             save_and_exit(financeManager);
             break;
         }
-
         //eventhandler
         default:
             cout << "Invalid choice. Try again.\n";
         }
-    } while (choice != 6);
+    } while (choice != 7);
 
 }
