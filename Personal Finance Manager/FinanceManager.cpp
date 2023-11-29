@@ -3,6 +3,12 @@
 //Methods add
 void FinanceManager::addExpense(double amount, std::string category, std::string description)
 {
+	if (!isCategoryValid(category))
+	{
+		std::cout << "Invalid category. Please choose a valid category\n";
+		return;
+	}
+
 	Transaction expense(-amount, category, description);
 	transactions.push_back(expense);
 }
@@ -18,31 +24,27 @@ void FinanceManager::generateMonthlyReport(int month, int year)
 {
 	double totalIncome = 0, totalExpense = 0;
 
-	std::cout << "Monthly Report for: " << month << "/" << year << std::endl;
+	system("cls");
+
+	std::cout << "Monthly Report for: " << std::setfill('0') << std::setw(2) << month << "/" << year << std::endl;
 
 	for (const Transaction& trans : transactions)
 	{
-		try {
-			
-			std::string date = trans.date;
-			size_t slash1 = date.find('/');
-			size_t slash2 = date.rfind('/');
+		try 
+		{
+			std::tm tm = {};
+			std::istringstream dateStream(trans.date);
+			dateStream >> std::get_time(&tm, "%a %b %d %H:%M:%S %Y");
 
-			if (slash1 != std::string::npos && slash2 != std::string::npos)
+			if (tm.tm_mon + 1 == month && tm.tm_year + 1900 == year)
 			{
-				int transMonth = std::stoi(date.substr(0, slash1));
-				int transYear = std::stoi(date.substr(slash2 + 1));
-
-				if (transMonth == month && transYear == year)
+				if (trans.amount > 0)
 				{
-					if (trans.amount > 0)
-					{
-						totalIncome += trans.amount;
-					}
-					else
-					{
-						totalExpense -= trans.amount;
-					}
+					totalIncome += trans.amount;
+				}
+				else
+				{
+					totalExpense -= trans.amount;
 				}
 			}
 		}
@@ -51,14 +53,14 @@ void FinanceManager::generateMonthlyReport(int month, int year)
 		}
 	}
 
-	std::cout << "Income: " << totalIncome << " Euro" << std::endl;
-	std::cout << "Expenses: " << totalExpense << " Euro" << std::endl;
-	std::cout << "Balance: " << totalIncome - totalExpense << " Euro" << std::endl;
+	std::cout << "Income: " << std::fixed << std::setprecision(2) << totalIncome << " Euro" << std::endl;
+	std::cout << "Expenses: " << std::fixed << std::setprecision(2) << totalExpense << " Euro" << std::endl;
+	std::cout << "Balance: " << std::fixed << std::setprecision(2) << totalIncome - totalExpense << " Euro" << std::endl;
 }
 
 void FinanceManager::saveTransactions()
 {
-	std::ofstream file("transactions.txt");
+	std::ofstream file("transactions.csv");
 
 	if (file.is_open())
 	{
@@ -70,15 +72,16 @@ void FinanceManager::saveTransactions()
 	}
 }
 
-void FinanceManager::loadTrancsactions()
+void FinanceManager::loadTransactions()
 {
-	std::ifstream file("transactions.txt");
+	std::ifstream file("transactions.csv");
 
 	if (file.is_open()) {
 		double amount;
 		std::string category, description, date;
 
-		while (file >> amount) {
+		while (file >> amount) 
+		{
 			file.ignore();
 			std::getline(file, category, ',');
 			std::getline(file, description, ',');
@@ -92,6 +95,30 @@ void FinanceManager::loadTrancsactions()
 		file.close();
 	}
 }
+
+void FinanceManager::loadExpenseCategories()
+{
+	expenseCategories = { "Food", "Transportation", "Enterteinment", "Utilities", "Other" };
+}
+
+//Methods expense Catergories
+
+void FinanceManager::printExpenseCategories()
+{
+	int n = 0;
+
+	std::cout << "Expense Categories:\n";
+	for (const auto& category : expenseCategories)
+	{
+		std::cout << ++n << "." << category << '\n';
+	}
+}
+
+bool FinanceManager::isCategoryValid(std::string category)
+{
+	return std::find(expenseCategories.begin(), expenseCategories.end(), category) != expenseCategories.end();
+}
+
 
 //mathmetods
 double FinanceManager::calculateBalance()

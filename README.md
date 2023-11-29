@@ -7,7 +7,7 @@ SRH - Software Development classes
 
 **Personal Finance Manager** is a project developed for the Software Development course at SRH Berlin University of Applied Sciences. It's designed to be a simple yet powerful command-line personal finance manager implemented in C++ using classes.
 
-The goal of this project is to provide users with a tool for managing their finances, tracking expenses, and generating basic financial reports. It's a great learning opportunity for software development students to gain hands-on experience in C++ programming and software design.
+The goal of this project is to provide users with a tool for managing their finances, tracking expenses, and generating basic financial reports.
 
 ## FINAL PROJECT SUBMISSION
 

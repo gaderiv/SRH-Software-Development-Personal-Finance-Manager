@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{b3675f82-22b9-4319-8de4-501cb0cb5558}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -41,5 +44,21 @@
     <ClInclude Include="resource.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="transactions.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="SRC\Clean Code Dev\TODO.txt" />
+    <Text Include="SRC\UnitTests\TODO.txt" />
+    <Text Include="SRC\UML\TODO.txt" />
+    <Text Include="SRC\Requirements Engineering\TODO.txt" />
+    <Text Include="SRC\Metrices\TODO.txt" />
+    <Text Include="SRC\DDD\TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="transactions.csv">
+      <Filter>data</Filter>
+    </None>
   </ItemGroup>
 </Project>

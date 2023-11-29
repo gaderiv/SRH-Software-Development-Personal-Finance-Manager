@@ -5,9 +5,9 @@ using namespace std;
 
 int main()
 {
-	int choice;
+    int choice;
 
-	User user("Michal Witwicki", 0, 0);
+	User user("Michal Witwicki", 0, 0); //working on functionality
 	FinanceManager financeManager(user);
 
 	do
@@ -35,6 +35,7 @@ int main()
 		{
 			double amount;
 			string category, description;
+            int categoryChoice;
 
 			cout << "Enter expense amount: ";
 
@@ -45,8 +46,21 @@ int main()
 			}
 			
 			cin.ignore();
-			cout << "Enter expense category: ";
-			getline(cin, category);
+
+            financeManager.printExpenseCategories();
+
+            cout << "Choose an expense category (enter the corresponding number): ";
+
+            if (!(cin >> categoryChoice) || categoryChoice < 1 || categoryChoice > financeManager.getExpenseCategories().size())
+            {
+                cout << "Invalid category choice. Please enter a valid number.\n";
+                break;
+            }
+
+            category = financeManager.getExpenseCategories()[categoryChoice - 1];
+
+            cin.ignore();
+
 			cout << "Enter expense description: ";
 			getline(cin, description);
 
