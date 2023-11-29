@@ -9,12 +9,14 @@ class FinanceManager
 private:
 	User user;
 	std::vector<Transaction> transactions;
+	std::vector<std::string> expenseCategories;
 
 public:
 
 	FinanceManager(User user) : user(user)
 	{
-		loadTrancsactions();
+		loadTransactions();
+		loadExpenseCategories();
 	}
 
 	//Methods add
@@ -24,7 +26,17 @@ public:
 	//Methods i/o and gen
 	void generateMonthlyReport(int month, int year);
 	void saveTransactions();
-	void loadTrancsactions();
+	void loadTransactions();
+	void loadExpenseCategories();
+
+	const std::vector<std::string>& getExpenseCategories() const
+	{
+		return expenseCategories;
+	}
+
+	//Methods expense Catergories
+	void printExpenseCategories();
+	bool isCategoryValid(std::string category);
 
 	//mathmetods
 	double calculateBalance();

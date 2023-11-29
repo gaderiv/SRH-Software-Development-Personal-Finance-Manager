@@ -56,4 +56,9 @@
     <Text Include="SRC\Metrices\TODO.txt" />
     <Text Include="SRC\DDD\TODO.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="transactions.csv">
+      <Filter>data</Filter>
+    </None>
+  </ItemGroup>
 </Project>

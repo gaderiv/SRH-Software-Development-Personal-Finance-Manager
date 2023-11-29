@@ -2,6 +2,9 @@
 
 #include <iostream>
 #include <fstream>
+#include <sstream>
+#include <limits>
+#include <iomanip>
 
 
 #include "Transaction.h"
