@@ -148,7 +148,7 @@ int main()
         //input checker
 		if (!(cin >> choice))
 		{
-			cout << "Invalid input. Please enter a number.\n";
+			cout << "Incalid input. Please enter a number.\n";
 			cin.clear();
 			cin.ignore(numeric_limits<streamsize>::max(), '\n');
 			continue;
