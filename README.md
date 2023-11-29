@@ -52,7 +52,22 @@ The goal of this project is to provide users with a tool for managing their fina
 
 >Clean Code Development: A) At least 5 points you can show me with an explanation of why this is clean code in your code and/or what has improved & B) >>10 points on your personal CCD cheat sheet. E.g. a PDF.
 
-|TODO|
+### A
+&rarr; [PDF Version](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/InDev/Personal%20Finance%20Manager/SRC/Clean%20Code%20Dev/Clean%20Code%20Development.pdf)
+
+&rarr; Reducing amount of code in void main() for better view and creating functions instead [THEN](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/commit/3653979d2540aaeef5316350c4bf457dc4704d94#:~:text=case%201%3A,successfully.%5Cn%22%3B), [NOW](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/3839b0aba303d450f54a0487299081db7663ccf8/Personal%20Finance%20Manager/main.cpp#L192)
+
+&rarr; [Explanatory variables](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/3839b0aba303d450f54a0487299081db7663ccf8/Personal%20Finance%20Manager/main.cpp#L167)
+
+&rarr; [Good comments](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/3839b0aba303d450f54a0487299081db7663ccf8/Personal%20Finance%20Manager/FinanceManager.h#L22)
+
+&rarr; [Error handling](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/3839b0aba303d450f54a0487299081db7663ccf8/Personal%20Finance%20Manager/Budgeting.cpp#L26-L32)
+
+&rarr; [Intuitive Function names and clear intention of the function/method](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/3839b0aba303d450f54a0487299081db7663ccf8/Personal%20Finance%20Manager/main.cpp#L133-L161)
+
+### B
+Cheat sheet 
+&rarr; [CCD cheat sheet](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/InDev/Personal%20Finance%20Manager/SRC/Clean%20Code%20Dev/Clean%20Code%20Development%20Cheat%20Sheet.pdf)
 
 ## 8. Build
 
