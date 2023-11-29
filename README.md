@@ -16,6 +16,7 @@ The goal of this project is to provide users with a tool for managing their fina
 >Use and understand Git! Play with Branches and undo/revert things = go back in time!
 
 &rarr; [See commit history here](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/commits/master)
+&rarr; [Second branch + revert/undo](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/commits/InDev#:~:text=Revert%20%22reverse%22,%E2%80%A6)
 
 ## 2. UML 
 
@@ -80,9 +81,9 @@ The goal of this project is to provide users with a tool for managing their fina
 
 ## 11. Functional Programming
 >prove that you have covered all functional aspects in your code as:
-- only final data structures
-- (mostly) side-effect-free functions
-- the use of higher-order functions
-- functions as parameters and return values
-- use closures / anonymous functions
-- You can also do it outside of your project. Even in other languages such as F#, Clojure, Julia, etc. 
+>- only final data structures
+>- (mostly) side-effect-free functions
+>- the use of higher-order functions
+>- functions as parameters and return values
+>- use closures / anonymous functions
+>- You can also do it outside of your project. Even in other languages such as F#, Clojure, Julia, etc. 
