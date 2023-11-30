@@ -67,7 +67,10 @@ The goal of this project is to provide users with a tool for managing their fina
 
 ### B
 Cheat sheet 
-&rarr; [CCD cheat sheet](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/InDev/Personal%20Finance%20Manager/SRC/Clean%20Code%20Dev/Clean%20Code%20Development%20Cheat%20Sheet.pdf)
+
+&rarr; [CCD cheat sheet README.MD](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/Personal%20Finance%20Manager/SRC/Clean%20Code%20Dev/CCD_Cheat_Sheet.md)
+
+&rarr; [CCD cheat sheet PDF](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/InDev/Personal%20Finance%20Manager/SRC/Clean%20Code%20Dev/Clean%20Code%20Development%20Cheat%20Sheet.pdf)
 
 ## 8. Build
 
