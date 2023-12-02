@@ -16,6 +16,7 @@ The goal of this project is to provide users with a tool for managing their fina
 >Use and understand Git! Play with Branches and undo/revert things = go back in time!
 
 &rarr; [See commit history here](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/commits/master)
+&rarr; [Second branch + revert/undo](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/commits/InDev#:~:text=Revert%20%22reverse%22,%E2%80%A6)
 
 ## 2. UML 
 
@@ -52,21 +53,38 @@ The goal of this project is to provide users with a tool for managing their fina
 >Clean Code Development: A) At least 5 points you can show me with an explanation of why this is clean code in your code and/or what has improved & B) >>10 points on your personal CCD cheat sheet. E.g. a PDF.
 
 ### A
-&rarr; [PDF Version](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/InDev/Personal%20Finance%20Manager/SRC/Clean%20Code%20Dev/Clean%20Code%20Development.pdf)
+&rarr; [CCD.md](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/Clean%20Code%20Dev/CCD.md)
 
-&rarr; Reducing amount of code in void main() for better view and creating functions instead [THEN](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/commit/3653979d2540aaeef5316350c4bf457dc4704d94#:~:text=case%201%3A,successfully.%5Cn%22%3B), [NOW](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/3839b0aba303d450f54a0487299081db7663ccf8/Personal%20Finance%20Manager/main.cpp#L192)
+&rarr; [PDF Version](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/Clean%20Code%20Dev/Clean%20Code%20Development.pdf)
 
-&rarr; [Explanatory variables](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/3839b0aba303d450f54a0487299081db7663ccf8/Personal%20Finance%20Manager/main.cpp#L167)
+&rarr; Reducing amount of code in void main() for better view and creating functions instead
 
-&rarr; [Good comments](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/3839b0aba303d450f54a0487299081db7663ccf8/Personal%20Finance%20Manager/FinanceManager.h#L22)
+[THEN](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/commit/3653979d2540aaeef5316350c4bf457dc4704d94#:~:text=case%201%3A,successfully.%5Cn%22%3B), [NOW](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/e0e575aad41862babdd12c86c6904b2ca569db1e/src/main.cpp#L189-L211)
 
-&rarr; [Error handling](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/3839b0aba303d450f54a0487299081db7663ccf8/Personal%20Finance%20Manager/Budgeting.cpp#L26-L32)
+Reducing amount of code in switch helped me with organizing space and makes it more readible.
 
-&rarr; [Intuitive Function names and clear intention of the function/method](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/3839b0aba303d450f54a0487299081db7663ccf8/Personal%20Finance%20Manager/main.cpp#L133-L161)
+&rarr; [Explanatory variables](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/e0e575aad41862babdd12c86c6904b2ca569db1e/src/main.cpp#L164-L166)
+
+explanatory variables helped me with knowing what should I use. I did not wasted my time searching for "how do I called this variable?", names are clear and uniqe for me. Some people might be a little bit confused with those names but when the will see my POV itt will be easy to use them for everyone
+
+&rarr; [Good comments](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/e0e575aad41862babdd12c86c6904b2ca569db1e/src/PFMLib/FinanceManager.h#L22-L50)
+
+Since my functions are self-explanatory I barely use comments. I mostly use comments to point the most important things to better catch the thing where is something. Also when it will come to the point of big algorithm comments might explain complexity of logic
+
+&rarr; [Error handling](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/e0e575aad41862babdd12c86c6904b2ca569db1e/src/PFMLib/Budgeting.cpp#L26-L34)
+
+Error handling in my case I used for files, sometimes user is unavailable somehow to create file so it is important to know what exactly happendd. 
+
+&rarr; [Intuitive Function names and clear intention of the function/method](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/e0e575aad41862babdd12c86c6904b2ca569db1e/src/main.cpp#L130-L158)
+
+Intuitive function names explains me a lot with what is going on. It helps me plan better and use them by calling the thing what they will be doing. It also helps me find a bug when it comes to unit test because I know which function/funcktions are responsible for it 
 
 ### B
 Cheat sheet 
-&rarr; [CCD cheat sheet](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/InDev/Personal%20Finance%20Manager/SRC/Clean%20Code%20Dev/Clean%20Code%20Development%20Cheat%20Sheet.pdf)
+
+&rarr; [CCD_Cheat_Sheet.md](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/Clean%20Code%20Dev/CCD_Cheat_Sheet.md)
+
+&rarr; [CCD cheat sheet PDF](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/Clean%20Code%20Dev/Clean%20Code%20Development%20Cheat%20Sheet.pdf)
 
 ## 8. Build
 
@@ -95,9 +113,9 @@ Cheat sheet
 
 ## 11. Functional Programming
 >prove that you have covered all functional aspects in your code as:
-- only final data structures
-- (mostly) side-effect-free functions
-- the use of higher-order functions
-- functions as parameters and return values
-- use closures / anonymous functions
-- You can also do it outside of your project. Even in other languages such as F#, Clojure, Julia, etc. 
+>- only final data structures
+>- (mostly) side-effect-free functions
+>- the use of higher-order functions
+>- functions as parameters and return values
+>- use closures / anonymous functions
+>- You can also do it outside of your project. Even in other languages such as F#, Clojure, Julia, etc. 
