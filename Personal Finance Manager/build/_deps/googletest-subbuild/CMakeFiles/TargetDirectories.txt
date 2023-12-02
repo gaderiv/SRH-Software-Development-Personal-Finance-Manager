@@ -1,3 +1,0 @@
-F:/test/Personal Finance Manager/Personal Finance Manager/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-F:/test/Personal Finance Manager/Personal Finance Manager/build/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
-F:/test/Personal Finance Manager/Personal Finance Manager/build/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir
