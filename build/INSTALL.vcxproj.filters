@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\test\Personal Finance Manager\build\CMakeFiles\9a7fc34d78c8ee9a3cbf2ada2f22889a\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5793AE9C-7460-3D59-889A-79305CCA2C8F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
