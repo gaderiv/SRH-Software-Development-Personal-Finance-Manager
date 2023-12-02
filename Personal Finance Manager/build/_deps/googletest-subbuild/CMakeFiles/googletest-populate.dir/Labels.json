@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "F:/test/Personal Finance Manager/Personal Finance Manager/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "F:/test/Personal Finance Manager/Personal Finance Manager/build/_deps/googletest-subbuild/CMakeFiles/42ff71eca076a03f7284fe7aaa26fb11/googletest-populate.rule"
+		},
+		{
+			"file" : "F:/test/Personal Finance Manager/Personal Finance Manager/build/_deps/googletest-subbuild/CMakeFiles/49c9bc30da763099f46f9d32fc26dcb1/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "F:/test/Personal Finance Manager/Personal Finance Manager/build/_deps/googletest-subbuild/CMakeFiles/7109e098558d5a3299891c17eac1aecb/googletest-populate-build.rule"
+		},
+		{
+			"file" : "F:/test/Personal Finance Manager/Personal Finance Manager/build/_deps/googletest-subbuild/CMakeFiles/7109e098558d5a3299891c17eac1aecb/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "F:/test/Personal Finance Manager/Personal Finance Manager/build/_deps/googletest-subbuild/CMakeFiles/7109e098558d5a3299891c17eac1aecb/googletest-populate-download.rule"
+		},
+		{
+			"file" : "F:/test/Personal Finance Manager/Personal Finance Manager/build/_deps/googletest-subbuild/CMakeFiles/7109e098558d5a3299891c17eac1aecb/googletest-populate-install.rule"
+		},
+		{
+			"file" : "F:/test/Personal Finance Manager/Personal Finance Manager/build/_deps/googletest-subbuild/CMakeFiles/7109e098558d5a3299891c17eac1aecb/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "F:/test/Personal Finance Manager/Personal Finance Manager/build/_deps/googletest-subbuild/CMakeFiles/7109e098558d5a3299891c17eac1aecb/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "F:/test/Personal Finance Manager/Personal Finance Manager/build/_deps/googletest-subbuild/CMakeFiles/7109e098558d5a3299891c17eac1aecb/googletest-populate-test.rule"
+		},
+		{
+			"file" : "F:/test/Personal Finance Manager/Personal Finance Manager/build/_deps/googletest-subbuild/CMakeFiles/7109e098558d5a3299891c17eac1aecb/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

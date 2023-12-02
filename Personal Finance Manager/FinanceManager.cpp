@@ -132,3 +132,16 @@ double FinanceManager::calculateBalance()
 
 	return balance;
 }
+
+//getter
+Transaction FinanceManager::getTransaction(int index) const
+{
+	if (index >= 0 && index < transactions.size())
+	{
+		return transactions[index];
+	}
+	else
+	{
+		throw std::out_of_range("Index out of bounds");
+	}
+}

@@ -29,9 +29,14 @@ public:
 	void loadTransactions();
 	void loadExpenseCategories();
 
+	//const
 	const std::vector<std::string>& getExpenseCategories() const
 	{
 		return expenseCategories;
+	}
+	const std::vector<Transaction>& getTransactions() const
+	{
+		return transactions;
 	}
 
 	//Methods expense Catergories
@@ -40,6 +45,9 @@ public:
 
 	//mathmetods
 	double calculateBalance();
+
+	//getter
+	Transaction getTransaction(int index) const;
 
 };
 
