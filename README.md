@@ -53,9 +53,13 @@ The goal of this project is to provide users with a tool for managing their fina
 >Clean Code Development: A) At least 5 points you can show me with an explanation of why this is clean code in your code and/or what has improved & B) >>10 points on your personal CCD cheat sheet. E.g. a PDF.
 
 ### A
-&rarr; [PDF Version](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/InDev/Personal%20Finance%20Manager/SRC/Clean%20Code%20Dev/Clean%20Code%20Development.pdf)
+&rarr; [CCD.md](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/Clean%20Code%20Dev/CCD.md)
 
-&rarr; Reducing amount of code in void main() for better view and creating functions instead [THEN](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/commit/3653979d2540aaeef5316350c4bf457dc4704d94#:~:text=case%201%3A,successfully.%5Cn%22%3B), [NOW](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/3839b0aba303d450f54a0487299081db7663ccf8/Personal%20Finance%20Manager/main.cpp#L192)
+&rarr; [PDF Version](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/Clean%20Code%20Dev/Clean%20Code%20Development.pdf)
+
+&rarr; Reducing amount of code in void main() for better view and creating functions instead 
+
+[THEN](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/commit/3653979d2540aaeef5316350c4bf457dc4704d94#:~:text=case%201%3A,successfully.%5Cn%22%3B), [NOW](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/3839b0aba303d450f54a0487299081db7663ccf8/Personal%20Finance%20Manager/main.cpp#L192)
 
 Reducing amount of code in switch helped me with organizing space and makes it more readible.
 
@@ -78,9 +82,9 @@ Intuitive function names explains me a lot with what is going on. It helps me pl
 ### B
 Cheat sheet 
 
-&rarr; [CCD cheat sheet README.MD](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/Personal%20Finance%20Manager/SRC/Clean%20Code%20Dev/CCD_Cheat_Sheet.md)
+&rarr; [CCD_Cheat_Sheet.md](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/Clean%20Code%20Dev/CCD_Cheat_Sheet.md)
 
-&rarr; [CCD cheat sheet PDF](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/InDev/Personal%20Finance%20Manager/SRC/Clean%20Code%20Dev/Clean%20Code%20Development%20Cheat%20Sheet.pdf)
+&rarr; [CCD cheat sheet PDF](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/Clean%20Code%20Dev/Clean%20Code%20Development%20Cheat%20Sheet.pdf)
 
 ## 8. Build
 
