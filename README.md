@@ -129,4 +129,6 @@ To run unit test simply open the Personal_Finance_Manager.sln file located [here
 >- the use of higher-order functions
 >- functions as parameters and return values
 >- use closures / anonymous functions
->- You can also do it outside of your project. Even in other languages such as F#, Clojure, Julia, etc. 
+>- You can also do it outside of your project. Even in other languages such as F#, Clojure, Julia, etc.
+
+[TODO]
