@@ -19,6 +19,10 @@ SRH - Software Development classes
 
 >UML at least 3 good different big diagrams. "good" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all the tools to view them! Perfect would be 1) one dynamic diagram like an activity diagranm 2) one or two static diagrams as component, class or deployment and if needed a use-case diagram.
 
+### Activity Diagamm 
+
+&rarr; [Click here](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/UML/Activity%20diagram.png)
+
 |TODO|
 
 ## 3. Requirements Engineering
