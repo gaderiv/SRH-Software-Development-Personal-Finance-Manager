@@ -55,7 +55,16 @@ SRH - Software Development classes
 
 >Metrics at least two. Sonarcube would be great. Other non-trivial metrics are also fine.
 
-|TODO|
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=gaderiv_SRH-Software-Development-Personal-Finance-Manager&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=gaderiv_SRH-Software-Development-Personal-Finance-Manager)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=gaderiv_SRH-Software-Development-Personal-Finance-Manager&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=gaderiv_SRH-Software-Development-Personal-Finance-Manager)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=gaderiv_SRH-Software-Development-Personal-Finance-Manager&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=gaderiv_SRH-Software-Development-Personal-Finance-Manager)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=gaderiv_SRH-Software-Development-Personal-Finance-Manager&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=gaderiv_SRH-Software-Development-Personal-Finance-Manager)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=gaderiv_SRH-Software-Development-Personal-Finance-Manager&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=gaderiv_SRH-Software-Development-Personal-Finance-Manager)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=gaderiv_SRH-Software-Development-Personal-Finance-Manager&metric=bugs)](https://sonarcloud.io/summary/new_code?id=gaderiv_SRH-Software-Development-Personal-Finance-Manager)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=gaderiv_SRH-Software-Development-Personal-Finance-Manager&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=gaderiv_SRH-Software-Development-Personal-Finance-Manager)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=gaderiv_SRH-Software-Development-Personal-Finance-Manager&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=gaderiv_SRH-Software-Development-Personal-Finance-Manager)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=gaderiv_SRH-Software-Development-Personal-Finance-Manager&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=gaderiv_SRH-Software-Development-Personal-Finance-Manager)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=gaderiv_SRH-Software-Development-Personal-Finance-Manager&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=gaderiv_SRH-Software-Development-Personal-Finance-Manager)
 
 ## 7. Clean Code Dev
 
