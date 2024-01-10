@@ -110,9 +110,20 @@ Cheat sheet
 
 For my build Management I've choosed [CMake](https://cmake.org/download/) with is great for C++ code. At first I needed to create file called ```CMakeLists.txt``` to let the tool configure environment. 
 
-![image](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/assets/56294674/77ef6edf-2c2e-4001-871f-55dc988ce72e)
+![image](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/assets/56294674/4a7bb1d3-23b1-4c43-bd72-3530bd6bed92)
 
-This tool can generate dependencies and building rules as well as linking the libraries direcctly to IDE. [More will be created later]
+This tool can generate dependencies and building rules as well as linking the libraries directly to IDE. To link the libraries first I needed to configure cmake to be able to configure and uppdate files.
+
+![image](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/assets/56294674/0d929929-566f-4766-acac-27ad3a3441e5)
+
+After checking if the configuring is done and every option is marked as white I needed to make sure if the path to source code is correct and then check if the path to build directory is correct. After confirming everything I doublechecked check boxes to verify needed things and clicked Generate.
+
+![image](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/assets/56294674/495479e5-6187-4a0a-b12e-79ab139fa60a)
+
+After generating libraries are ready to use. In my project internal as well as external libraries are included to my project.
+
+![image](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/assets/56294674/57795928-192b-4686-81d5-0478bcf2a8a2)
+
 
 ## 9. UnitTests
 
