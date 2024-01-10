@@ -49,7 +49,7 @@ SRH - Software Development classes
 
 >DDD Do a DDD session to find your domains! If your domain is too small, invent other domains around and document these domains (as if you have 100 Mio € from Edlich-Investment!) Develop a clear strategic design with mappings/relationships with >=8 Domains coming from an A) Event Storming. Drop your Domains into a B) Core Domain Chart and draw the C) Relations between the Domains!  
 
-|TODO|
+&rarr; [Event Storming + Core domain Chart + Relations between the Domains in PDF](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/DDD/DDD.pdf)
 
 ## 6. Metrices
 
