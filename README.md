@@ -148,6 +148,8 @@ To run unit test simply open the Personal_Finance_Manager.sln file located [here
 
 ![image](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/assets/56294674/36809c28-725b-4fad-aeaf-a6d79d9fa771)
 
+All of the written unit tests are [here](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/UnitTests/UnitTests.cpp)
+
 ## 10. IDE
 
 >Use a good IDE and get fluent with it: e.g. IntelliJ. What are your favourite key shortcuts?!
@@ -170,4 +172,12 @@ To run unit test simply open the Personal_Finance_Manager.sln file located [here
 >- use closures / anonymous functions
 >- You can also do it outside of your project. Even in other languages such as F#, Clojure, Julia, etc.
 
-[TODO]
+&rarr; [Only final data structures](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/e6f98316f4cc3f0c30a7e4c978d796a51f0d14b2/src/Functional%20Programming/Functional_Programming.cpp#L74-L99)
+
+&rarr; [(mostly) side-effect-free functions](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/e6f98316f4cc3f0c30a7e4c978d796a51f0d14b2/src/Functional%20Programming/Functional_Programming.cpp#L102-L116)
+
+&rarr; [the use of higher-order functions](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/e6f98316f4cc3f0c30a7e4c978d796a51f0d14b2/src/Functional%20Programming/Functional_Programming.cpp#L118C1-L140)
+
+&rarr; [functions as parameters and return values](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/e6f98316f4cc3f0c30a7e4c978d796a51f0d14b2/src/Functional%20Programming/Functional_Programming.cpp#L142-L155)
+
+&rarr; [use closures / anonymous functions](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/e6f98316f4cc3f0c30a7e4c978d796a51f0d14b2/src/Functional%20Programming/Functional_Programming.cpp#L157C1-L168)
