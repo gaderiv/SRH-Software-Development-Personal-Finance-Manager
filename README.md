@@ -39,11 +39,11 @@ SRH - Software Development classes
 
 ### Professional Tool: Jira + Confluence 
 
-[Click here](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/InDev/src/UML/ComponentDiagram.png)
+[Jira + Confluence](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/Requirements%20Engineering/Requirements_Engineering_Jira_Confluence.pdf)
 
 ### "Self-made": Notion
 
-[Click here](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/InDev/src/UML/ComponentDiagram.png)
+[Notion](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/Requirements%20Engineering/Requirements_Engineering_Notion.pdf)
 
 
 ## 4. Analysis
