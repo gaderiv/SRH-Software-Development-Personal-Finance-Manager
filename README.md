@@ -148,7 +148,7 @@ To run unit test simply open the Personal_Finance_Manager.sln file located [here
 
 ![image](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/assets/56294674/36809c28-725b-4fad-aeaf-a6d79d9fa771)
 
-All of the written unit tests are [here]([https://github.com/google/googletest/tree/main](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/UnitTests/UnitTests.cpp))
+All of the written unit tests are [here](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/UnitTests/UnitTests.cpp)
 
 ## 10. IDE
 
