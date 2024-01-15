@@ -37,7 +37,14 @@ SRH - Software Development classes
 
 >Describe your project or any project (e.g. one related to your work or a private project) neatly using the methods of Requirements Engineering by mapping some requirements in 2 tools (!).To do this, use the most important description attributes from the script! Approximately 5-10 requirements per tool should be sufficient. Two variants should be provided = tools. A 'self-made' version and a professional = possibly commercial version, i.e. with 2 tools! Examples of 'self-made' variants: Airtable, notion.so, Trello, etc. Examples of commercial tools: Monday, Jira, Doors, ObjectIF, Xebrio, etc. (see Miro). Instead of the professional version, you can also build a tool yourself.
 
-|TODO|
+### Professional Tool: Jira + Confluence 
+
+[Click here](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/InDev/src/UML/ComponentDiagram.png)
+
+### "Self-made": Notion
+
+[Click here](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/InDev/src/UML/ComponentDiagram.png)
+
 
 ## 4. Analysis
 
