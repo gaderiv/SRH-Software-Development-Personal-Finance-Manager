@@ -7,9 +7,9 @@ SRH - Software Development classes
 
 **Personal Finance Manager** is a project developed for the Software Development course at SRH Berlin University of Applied Sciences.
 ## FINAL PROJECT SUBMISSION
-[1. GIT](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/tree/master?tab=readme-ov-file#1-git)
+[1. GIT](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/tree/master#:~:text=FINAL%20PROJECT%20SUBMISSION-,1.%20Git,-Use%20and%20understand)
 
-[2. UML](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/tree/master#2-uml)
+[2. UML](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/tree/master#:~:text=branch%20%2B%20revert/undo-,2.%20UML,-UML%20at%20least)
 
 [3. Requirements Engineering](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/tree/master#3-requirements-engineering)
 
