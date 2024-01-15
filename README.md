@@ -25,11 +25,11 @@ SRH - Software Development classes
 
 ### Class Diagram
 
-[Click here](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/InDev/src/UML/ClassDiagram.png)
+[Click here](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/UML/ClassDiagram.png)
 
 ### Component Diagram
 
-[Click here](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/InDev/src/UML/ComponentDiagram.png)
+[Click here](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/UML/ComponentDiagram.png)
 
 
 
@@ -115,7 +115,7 @@ Cheat sheet
 
 >Build Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. (it could be also disconnected from the project just to learn a build tool!) and CICD
 
-For my build Management I've choosed [CMake](https://cmake.org/download/) with is great for C++ code. At first I needed to create file called ```CMakeLists.txt``` to let the tool configure environment. 
+For my build Management I've choosed [CMake](https://cmake.org/download/) with is great for C++ code. At first I needed to create file called ```CMakeLists.txt``` to let the tool configure the environment and point every file thas should be included which you can find here [integration file](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/UnitTests/CMakeLists.txt). 
 
 ![image](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/assets/56294674/4a7bb1d3-23b1-4c43-bd72-3530bd6bed92)
 
