@@ -50,7 +50,13 @@ SRH - Software Development classes
 
 >From all the points in the Analysis learning unit, A) come up with your own checklist (on an extra DIN A4 page) with the points that you consider relevant to your project. B. Carry out an analysis of your semester project/your favourite / start-up idea and would like to submit this analysis as part of a large documentary! Write enough about each point to create at least 2 pages. Assume that you will soon have an angel for the start-up chapter. If successful, you would get a lot of “money” to be able to do the design and implement it later. So get your start-up successfully into the race!
 
-|TODO|
+### Point A
+
+[Click here](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/Analysis/Point_A_Analysis.pdf)
+
+### Point B
+
+[Click here](https://github.com/gaderiv/SRH-Software-Development-Personal-Finance-Manager/blob/master/src/Analysis/Point_B_Analysis.pdf)
 
 ## 5. DDD
 
